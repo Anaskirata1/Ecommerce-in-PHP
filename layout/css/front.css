@@ -1,0 +1,302 @@
+
+body{
+    background-color: #f4f4f4 !important;
+    font-size: 17px !important; 
+    height: 3000px;
+}
+.asterisk {
+    font-size: 20px;
+    position: absolute;
+    color: red;
+    right: 10px;
+    top: 7px;
+    color: #d20707;
+}
+
+.nice-message {
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border-left: 5px solid #080;
+}
+h1{
+    
+    font-size: 55px;
+    margin: 20px 0 !important;
+    font-weight: bold;
+    color: #666;
+}
+.input-container{
+    position: relative;
+}
+
+/* start login form  */
+
+/* end login form  */
+
+/* start bootstrap edit  */
+
+/* .bg-body-tertiary {
+ --bs-bg-opacity: 1;
+ --bs-tertiary-bg-rgb :#000 !important ;
+  background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+} */
+.navbar {
+    margin-bottom: 0px !important;
+    background-color: #c0392b !important;
+    
+  
+}
+
+.navbar .navbar-brand{
+    font-size: 1em !important;
+}
+
+/* .navbar .dropdown-toggle,
+.dropdown-menu {
+    margin-left: 600px!important;
+} */
+.navbar-nav .nav-link.active:hover,
+ .navbar-nav .nav-link.show:hover,
+ .navbar-brand:hover,
+ .dropdown-toggle:hover {
+    background-color: #3498db !important;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.dropdown-menu{
+    background-color: #3498db !important;
+    width: 250px !important;
+    padding: 0 !important;
+  
+   
+}
+.form-control{
+    position: relative !important;
+}
+
+/* end navbar  */
+/* ======================================== */
+
+/* start header  */ 
+
+.test1{
+    background-color: aqua;
+    padding: 20px;
+}
+.upper-bar{
+    background-color: #fff;
+    color: rgb(30, 155, 72);
+    height: 30px;
+
+}
+.upper-bar a span{
+    align-items: center;
+}
+.upper-bar .pull-left img, svg{
+    width: 30px;
+    border-radius: 50%;
+}
+
+/* .btn-group ul li a {
+    color: #000 !important;
+} */
+
+/* end header  */
+
+/* start login page  */
+.login-page form{
+    max-width: 300px;
+    margin: auto;
+}
+.login-page form input{
+    margin-bottom: 10px;
+}
+.login-page .selected{
+    color: #822020;
+}
+
+.login-page h1{
+    color: #c0c0c0;
+
+}
+.login-page h1 span{
+    cursor: pointer;
+}
+.login-page .signup{
+    display: none;
+}
+
+.login-page [data-class = "login"].selected{
+    color: #337ab7;
+}
+.login-page [data-class = "signup"].selected{
+    color: #5cb85c;
+}
+/* end login page  */
+
+
+/* start categories page  */
+.item-box{
+    position: relative;
+}
+.item-box .price-tag{
+    background-color: #b4b4b4;
+    position: absolute;
+    padding: 2px 1px;
+    left: 0;
+    top: 2px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 14px;
+
+    
+
+
+
+}
+
+
+
+/* end categories page  */
+
+
+/* start profail page  */
+.information {
+    margin-top: 20px;
+
+}
+.block{
+    margin: 20px 0;
+   
+}
+.block .panel {
+    border: 1px solid blue;
+
+}
+.block .panel-heading{
+    width: 100%;
+    background-color: #3498db;
+    padding: 10px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
+.block .panel-body{
+    width: 100%;
+    background-color: rgb(194, 210, 211);
+    padding: 10px;
+}
+
+.information ul{
+    padding: 0;
+    margin: 0;
+}
+.information ul li{
+    padding: 10px;
+}
+.information ul li:nth-child(odd){
+    background-color: #eee;
+}
+.information ul li span{
+    width: 120px;
+    display: inline-block;
+}
+.information .btn{
+    margin-top: 10px;
+    border: 2px solid #eee;
+    font-weight: bold;
+    background-color: #eee;
+
+}
+
+.thumbnail .date{
+    
+    font-size: 13px;
+    color: #aaa;
+    font-weight: bold;
+}
+.thumbnail h3 a{
+    text-decoration: none !important;
+    color: #000;
+    font-weight: bold;
+   
+
+}
+.item-box .approve-status{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #b85a5a;
+    color: #fff;
+    padding: 3px 5px;
+}
+.item-box .caption p {
+    height: 44px;
+    max-height: 44px;
+}
+
+
+
+/* end profail page  */
+
+/* start show item page  */
+.item-info h1 {
+    padding: 0px 10px;
+    margin: 0 !important;
+}
+.item-info p{
+    padding: 10px;
+}
+.item-info ul li{
+    padding: 10px ;
+}
+
+.item-info ul li:nth-child(odd){
+    background-color: #e8e8e8;
+}
+.item-info  ul li span{
+    width: 120px;
+    display: inline-block;
+}
+
+.add-comment h3 {
+    margin: 0;
+}
+.add-comment textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 120px;
+}
+.comment-box{
+    margin-bottom: 20px;
+}
+.comment-box img{
+    max-width: 100px;
+    border-radius:50% ;
+}
+.comment-box .lead{
+   
+    background-color: #e0e0e0;
+    padding: 10px;
+    position: relative;
+    margin-top: 25px;
+}
+.comment-box .lead::before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 15px;
+    border-style: solid;
+    border-color:transparent #e0e0e0 transparent transparent ;
+    position: absolute;
+    left: -28px;
+    top: 10px;
+
+
+}
+/* end show item page  */
